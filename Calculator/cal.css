@@ -1,0 +1,64 @@
+h1 {
+  margin-left: 45%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+  background-color: peachpuff;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  font-size: 25px;
+  pointer-events: visible;
+}
+
+.grid-container {
+  margin-left: 30%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: purple;
+  padding: 10px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.grid-item {
+  background-color: pink;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* 
+#clr {
+  grid-row: 1;
+  /* grid-column: 4/6;
+} */
+
+#ip {
+  grid-row: 1;
+  grid-column: 1/6;
+}
+input[type="text"],
+select {
+  width: 85%;
+  padding: 20px 12px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* background-color: peachpuff; */
+  box-sizing: border-box;
+}
+
+#eq {
+  grid-row: 5;
+  grid-column: 4/6;
+}
